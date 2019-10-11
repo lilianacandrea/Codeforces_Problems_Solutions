@@ -8,7 +8,7 @@ result = -1
 
 if m <= n:
 	cnt = round((l + k) / m)
-	while(cnt * m <= n):
+	while cnt * m <= n:
 		if cnt * m - k >= l:
 			result = cnt
 			break
